@@ -1,0 +1,97 @@
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.box {
+    min-height: 20rem;
+    width: 90%;
+    background-color: #C9E7B1;
+    justify-content: center;
+    padding: 0 2rem;
+    margin: 1rem auto;
+}
+
+.box a {
+    font-family: 'Montserrat', sans-serif;
+    color: blue;
+    cursor: pointer;
+    display: block;
+}
+
+.article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infos {
+    padding-left: 10px;
+    margin-bottom: 2rem;
+}
+
+.italic {
+    font-style : italic;
+}
+@media screen and (min-width: 1001px) and (max-width: 1975px) {
+    .container {
+        grid-template-columns: auto auto;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1350px) {
+    .container {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .box {
+        width: 90%;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    
+    .article {
+        display: block;
+    }
+    
+    .container {
+        display: block;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    };
+
+    h3 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+
+
+}
+

@@ -1,0 +1,31 @@
+main{
+    margin: 1% 20%;
+    background-image: url(images\CBD.jpg);
+}
+.articles{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 50px;
+    border: 2px solid;
+}
+.bloctxt{
+    font-size: 20px;
+}
+#recents{
+    text-align: center;
+    color: #157359 ;
+    font-size: 40px;
+}
+.imgsize{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.titreimg{
+    color: #f5c159;
+    margin-bottom: -4%;
+}
+.txtimg{
+    color: #0D619A;
+}
